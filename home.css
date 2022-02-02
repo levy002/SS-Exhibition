@@ -64,15 +64,6 @@ p {
   color: #272a31;
 }
 
-.mobile-nav1 ul {
-  width: 70%;
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-}
-
 .mobile-nav2 {
   margin-top: 50px;
 }
