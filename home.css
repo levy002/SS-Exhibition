@@ -109,14 +109,13 @@ p {
 }
 
 .title h1 {
-  color: #ec5242;
   font-size: 26px;
   font-family: 'Cocogoose', sans-serif;
   background-image: url(/images/tomatoes-g0d1bdf68c_640.jpg);
   background-size: 100%;
-  background-clip: text;
+  background-clip: inherit;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
   margin-bottom: 1px;
 }
 
