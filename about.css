@@ -1,0 +1,361 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+
+.about-headline {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(images/bkkk.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.about-headline > * {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about-title {
+  margin: 30px 0;
+}
+
+.about-title h1 {
+  font-size: 26px;
+  font-family: 'Cocogoose', sans-serif;
+  color: #ec5242;
+  margin: 0;
+}
+
+#greeting {
+  color: #ec5242;
+  font-size: 25px;
+  margin: 40px 0 0;
+}
+
+hr {
+  color: #272a31;
+}
+
+.about-title hr {
+  display: none;
+}
+
+.contact {
+  margin: 15px 15px 30px;
+  line-height: 20px;
+  font-size: 13px;
+  width: 85%;
+  color: #272a31;
+}
+
+footer p {
+  margin: 0;
+}
+
+.contact p {
+  margin: 0;
+  line-height: 20px;
+}
+
+#email {
+  text-decoration: underline;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact i {
+  display: none;
+}
+
+.about-logo {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-logo div:first-child {
+  text-align: center;
+  width: 80%;
+}
+
+.about-logo div:first-child h3 {
+  margin: 0;
+}
+
+.about-logo p {
+  width: 80%;
+  margin: 0 0 20px 0;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.about-logo span {
+  display: none;
+}
+
+#about-introduction {
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  padding: 12px 10px;
+  margin: 0;
+  font-size: 13px;
+  line-height: 20px;
+  background-color: #fff;
+}
+
+#about-introduction span {
+  display: none;
+}
+
+.line {
+  width: 10%;
+  background-color: red;
+  border: none;
+  height: 1px;
+}
+
+.logo-container {
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.exposition-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  width: 85%;
+  margin: 30px auto;
+}
+
+.exposition-container div:first-child h3 {
+  margin: 0;
+}
+
+.exposition-container p {
+  margin: 0 0 20px 0;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.last-expositions {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.exposition {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 220px;
+  background-color: rgba(236, 82, 66, 0.6);
+}
+
+.exposition p {
+  margin: 0;
+  color: #fff;
+}
+
+#expo-1 {
+  background-image: url(images/expo1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#expo-2 {
+  background-image: url(images/expo2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.year {
+  font-size: 20px;
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.partner {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  background-color: #272a31;
+  padding: 25px 10px;
+}
+
+.partner h4 {
+  font-size: 20px;
+  color: #d3d3d3;
+  text-align: center;
+  margin: 0;
+}
+
+.partner ul {
+  padding: 0;
+  margin: 0;
+}
+
+.partners-logo {
+  display: flex;
+  margin: 0 5%;
+  gap: 10%;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  justify-content: center;
+}
+
+.partners-logo > * {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 30px;
+}
+
+footer img {
+  height: 70px;
+  width: 25%;
+  border-radius: 10px 30px;
+}
+
+.partners-logo img {
+  width: 70px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.logo-container img {
+  height: 120px;
+  width: 50%;
+  border-radius: 15px 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-headline {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(images/about-dektop.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    height: 100vh;
+    gap: 30px;
+    background-color: rgb(247, 246, 246);
+  }
+
+  .about-title {
+    margin: 0;
+  }
+
+  #greeting {
+    display: none;
+  }
+
+  .about-title h1 {
+    font-size: 40px;
+  }
+
+  .about-title hr {
+    display: block;
+  }
+
+  .line {
+    width: 30px;
+  }
+
+  .contact {
+    margin: 0;
+  }
+
+  #about-introduction {
+    width: 65%;
+    padding: 15px 30px;
+    line-height: 18px;
+  }
+
+  .about-logo {
+    width: 90%;
+    margin-top: 0;
+    padding: 40px 30px;
+  }
+
+  .about-logo span {
+    display: block;
+  }
+
+  #about-introduction span {
+    display: block;
+  }
+
+  .logo-container {
+    width: 50%;
+    height: 150px;
+  }
+
+  .exposition-container {
+    width: 75%;
+  }
+
+  footer p {
+    color: #fff;
+  }
+
+  .exposition-container p {
+    margin-bottom: 30px;
+  }
+
+  .last-expositions {
+    flex-flow: row;
+    justify-content: center;
+    padding: 0 0 50px 0;
+  }
+
+  .last-expositions > * {
+    width: 50%;
+  }
+
+  .exposition p {
+    margin: 0;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  footer {
+    justify-content: flex-start;
+    width: 100%;
+    background-color: #272a31;
+    margin: 0;
+    padding: 2% 0;
+  }
+
+  footer .logo {
+    height: 100px;
+    width: 130px;
+    margin-left: 12.5%;
+  }
+
+  .logo-container #logo {
+    height: 120px;
+    width: 50%;
+  }
+}

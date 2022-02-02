@@ -1,0 +1,594 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  width: 90%;
+  margin: 0;
+}
+
+p {
+  color: #272a31;
+}
+
+.menu-icon {
+  position: absolute;
+  left: 5%;
+  top: 10px;
+}
+
+.menu-icon i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.nav-bar2 {
+  display: none;
+}
+
+.social-media:hover {
+  color: rgb(26, 23, 230) !important;
+}
+
+.mobile-nav {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  display: none;
+  flex-flow: column;
+  padding-top: 50px;
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.close-menu {
+  width: 85%;
+  margin: 0 auto 25px;
+  text-align: end;
+}
+
+.mobile-nav li {
+  list-style: none;
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.mobile-nav2 {
+  margin-top: 50px;
+}
+
+.mobile-nav2 ul {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 30px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.headline {
+  display: flex;
+  flex-flow: column;
+  background-image: url(images/mobile-home.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 50px 0 0;
+}
+
+.headline > * {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+.title p {
+  color: #ec5242;
+  font-size: 20px;
+  margin: 20px 0 0;
+}
+
+.title h1 {
+  font-size: 26px;
+  font-family: 'Cocogoose', sans-serif;
+  background-image: url(images/tomatoes-g0d1bdf68c_640.jpg);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1px;
+}
+
+#introduction {
+  font-size: 12px;
+  padding: 15px 10px;
+  border: 3px solid #fff;
+  margin-bottom: 20px;
+}
+
+#introduction span {
+  display: none;
+}
+
+#time {
+  font-size: 21px;
+  font-family: 'Cocogoose', sans-serif;
+}
+
+#location {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 50px;
+}
+
+.main-program {
+  background-color: #272a31;
+  padding: 20px 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-program div:first-child {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-program h4 {
+  color: #fff;
+  margin: 0;
+  font-size: 15px;
+}
+
+.home-line {
+  width: 30px;
+  background-color: red;
+  border: none;
+  height: 2px;
+  margin: 0;
+}
+
+.main-program ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: column;
+  padding: 0;
+  width: 100%;
+  gap: 10px;
+}
+
+.main-program a {
+  display: none;
+}
+
+.mobile-nav a:hover {
+  color: #ec5242;
+  text-decoration: underline;
+}
+
+.program {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+}
+
+.program:hover {
+  border: 1px solid #fff;
+}
+
+.program img {
+  width: 15%;
+}
+
+.program h5 {
+  width: 25%;
+  color: #ec5242;
+  font-size: 12px;
+  margin: 0;
+}
+
+.program p {
+  font-size: 12px;
+  color: #fff;
+  width: 60%;
+  margin: 0;
+}
+
+#join-btn {
+  background-color: #ec5242;
+  color: #fff;
+  padding: 15px 20px;
+  border: 1px hidden;
+  margin-bottom: 20px;
+}
+
+#join-btn:hover {
+  border: 2px solid #ec5242;
+  background-color: #fff;
+  color: #ec5242;
+}
+
+.partner,
+footer {
+  display: none;
+}
+
+.chefs-section {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0 0;
+}
+
+.chef-section-title {
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.chef-section-title > * {
+  margin: 0;
+}
+
+.chef-section-title hr {
+  width: 30%;
+  border: 0.5px solid #ec5242;
+  background-color: #ec5242;
+}
+
+.allChefs {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.chef {
+  display: flex;
+  gap: 5%;
+}
+
+#hide {
+  display: none;
+}
+
+.chef-image {
+  background-image: url(images/chess.jpg);
+  background-size: 40% 35%;
+  background-repeat: no-repeat;
+  flex-basis: 20%;
+}
+
+.chef-image img {
+  width: 80px;
+  height: 80px;
+  margin: 8% 8%;
+}
+
+.chef-info > * {
+  margin: 0;
+}
+
+.chef-info hr {
+  width: 10%;
+  background-color: #ec5242;
+  border: 0.5px solid #ec5242;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.chef-info h5:first-child {
+  padding-top: 2%;
+}
+
+.chef-info p:nth-child(2) {
+  color: #ec5242;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.chef-info p:last-child {
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.more-btn {
+  width: 90%;
+  margin: 20px 5% 40px;
+  background-color: #fff;
+  padding: 7px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #d3d3d3;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.more-btn:hover {
+  border: 1px solid #ec5242;
+}
+
+.more-btn i {
+  text-align: center;
+  color: #ec5242;
+}
+
+.fa-chevron-up {
+  display: none;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  header nav {
+    display: block;
+  }
+
+  .nav-bar2 {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  .nav-bar2 a {
+    color: #272a31;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  .main-program a {
+    display: block;
+    color: #d3d3d3;
+    font-size: 12px;
+  }
+
+  .nav-bar2 a:hover {
+    color: #ec5242;
+  }
+
+  .nav-bar2 a:focus {
+    color: #ec5242;
+  }
+
+  .logo {
+    height: 40px;
+    width: 60px;
+    border-radius: 10px 20px;
+  }
+
+  .nav-bar2 ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .headline {
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .headline > * {
+    width: 75%;
+  }
+
+  #greeting {
+    color: #ec5242;
+    font-size: 25px;
+  }
+
+  .title h1 {
+    color: #ec5242;
+    font-size: 40px;
+    margin: 0;
+  }
+
+  #introduction {
+    width: 50%;
+    margin-left: 12.5%;
+    font-size: 12px;
+  }
+
+  #time {
+    font-size: 30px;
+  }
+
+  .location {
+    font-size: 20px;
+  }
+
+  .main-program {
+    margin-bottom: 0;
+    padding: 30px 0 50px;
+  }
+
+  .main-program ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    padding: 0;
+    width: 75%;
+    gap: 10px;
+  }
+
+  .program {
+    flex-flow: column;
+    text-align: center;
+    gap: 10px;
+    padding: 10px 10px;
+    width: 100%;
+  }
+
+  .program img {
+    width: 30%;
+  }
+
+  .program h5 {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  #join-btn {
+    display: none;
+  }
+
+  .main-program a:hover {
+    color: #ec5242;
+  }
+
+  .partner {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    background-color: #272a31;
+  }
+
+  .partner > * {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .partner div:first-child {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .partner h4 {
+    font-size: 18px;
+    color: #d3d3d3;
+    text-align: center;
+    margin: 20px 0 0;
+  }
+
+  .partners-logo {
+    display: flex;
+    gap: 15%;
+    padding: 20px 0;
+    justify-content: center;
+  }
+
+  .partners-logo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+
+  .partners-logo img:hover {
+    width: 140px;
+    height: 140px;
+    border-radius: 60%;
+  }
+
+  .chef {
+    justify-content: stretch;
+    width: 100%;
+    gap: 5%;
+  }
+
+  .chefs-section {
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px 0 40px;
+  }
+
+  .allChefs {
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+  }
+
+  .chef-image {
+    flex-basis: 30%;
+  }
+
+  #hide {
+    display: block;
+  }
+
+  .more-btn {
+    display: none;
+  }
+
+  footer {
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+  }
+
+  footer .logo {
+    height: 120px;
+    width: 150px;
+    border-radius: 15px 50px;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  .program p {
+    font-size: 12px;
+    padding: 0;
+    width: 100%;
+  }
+
+  .nav-bar2 li:last-child a {
+    border: 5px solid #ec5242;
+    color: #ec5242;
+    text-align: center;
+    padding: 3px 8px;
+  }
+}
