@@ -13,7 +13,7 @@ This website is a page of Spices & Seasoning exhibition with a mix of CC Global 
 
 ## Live Demo
 
-[Live Demo Link](https://levy002.github.io/SS-Exhibition/)
+[Live Demo Link](https://ss-exhibition-202.netlify.app/)
 
 ## Getting Started
 
