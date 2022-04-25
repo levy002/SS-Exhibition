@@ -190,6 +190,8 @@ p {
   align-items: center;
   gap: 10px;
   padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .program:hover {
@@ -220,6 +222,8 @@ p {
   padding: 15px 20px;
   border: 1px hidden;
   margin-bottom: 20px;
+  border: 2px solid #ec5242;
+  cursor: pointer;
 }
 
 #join-btn:hover {
@@ -236,6 +240,7 @@ footer {
 .chefs-section {
   display: flex;
   flex-flow: column;
+  justify-content: center;
   align-items: center;
   gap: 30px;
   padding: 30px 0 0;
@@ -259,8 +264,7 @@ footer {
 }
 
 .allChefs {
-  width: 90%;
-  margin: 0 auto;
+  margin: 0 30px;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
@@ -269,7 +273,7 @@ footer {
 
 .chef {
   display: flex;
-  gap: 5%;
+  gap: 15px;
 }
 
 #hide {
@@ -280,7 +284,6 @@ footer {
   background-image: url(images/chess.jpg);
   background-size: 40% 35%;
   background-repeat: no-repeat;
-  flex-basis: 20%;
 }
 
 .chef-image img {
@@ -317,17 +320,21 @@ footer {
 }
 
 .more-btn {
-  width: 90%;
-  margin: 20px 5% 40px;
   background-color: #fff;
-  padding: 7px 0;
+  padding: 7px 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
   border: 1px solid #d3d3d3;
   font-size: 12px;
   cursor: pointer;
+  width: 120px;
+  margin: 20px auto;
+}
+
+.more-btn > * {
+  flex: 1;
 }
 
 .more-btn:hover {
@@ -412,6 +419,7 @@ footer {
   .headline {
     height: 100vh;
     justify-content: center;
+    padding: 0;
   }
 
   .headline > * {
@@ -524,31 +532,21 @@ footer {
     border-radius: 50%;
   }
 
-  .partners-logo img:hover {
-    width: 140px;
-    height: 140px;
-    border-radius: 60%;
-  }
-
   .chef {
     justify-content: stretch;
     width: 100%;
-    gap: 5%;
+    gap: 15px;
   }
 
   .chefs-section {
-    width: 85%;
     margin: 0 auto;
     padding: 30px 0 40px;
   }
 
   .allChefs {
     grid-template-columns: 1fr 1fr;
-    margin: 0;
-  }
-
-  .chef-image {
-    flex-basis: 30%;
+    margin: 0 20px;
+    gap: 20px;
   }
 
   #hide {
@@ -565,7 +563,7 @@ footer {
     padding: 20px 0;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 50px;
   }
 
