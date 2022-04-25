@@ -229,6 +229,7 @@ footer {
 }
 
 footer img {
+  align-self: center;
   height: 70px;
   width: 25%;
   border-radius: 10px 30px;
@@ -352,9 +353,9 @@ footer img {
   }
 
   footer .logo {
+    align-self: center;
     height: 100px;
     width: 130px;
-    margin-left: 12.5%;
   }
 
   .logo-container #logo {
