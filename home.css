@@ -205,8 +205,10 @@ p {
 .program h5 {
   width: 25%;
   color: #ec5242;
-  font-size: 12px;
+  font-size: 0.8rem;
   margin: 0;
+  align-self: center;
+  text-align: center;
 }
 
 .program p {
@@ -480,6 +482,8 @@ footer {
   .program h5 {
     font-size: 12px;
     width: 100%;
+    align-self: center;
+    text-align: center;
   }
 
   #join-btn {
