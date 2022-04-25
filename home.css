@@ -222,13 +222,12 @@ p {
   background-color: #ec5242;
   color: #fff;
   padding: 15px 20px;
-  margin-bottom: 20px;
   border: 2px solid #ec5242;
+  margin-bottom: 20px;
   cursor: pointer;
 }
 
 #join-btn:hover {
-  border: 2px solid #ec5242;
   background-color: #fff;
   color: #ec5242;
 }
